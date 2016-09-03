@@ -4,9 +4,9 @@
 
 ### Introduction to HTML
 
-![](img/domtree.png) Most common tags are:
+![](img/domtree.png)  
 
-![](img/element.png)
+Most common tags are:
 
 - div
 - p
@@ -24,7 +24,7 @@ The different tags help define the purpose of the content and with the help of C
 
 
 ###What is CSS
-![](../img/cphbusinesslog.png)
+![](img/cphbusinesslog.png)
 2 good reference sites:  
 [Tutorials point](http://www.tutorialspoint.com/css/)  
 [W3School](http://www.w3schools.com/css/)
@@ -67,12 +67,12 @@ The different tags help define the purpose of the content and with the help of C
 *   Test in browser that they are connected
 *   Try using HTML and CSS to get a result as close to this picture as you can
 
-![finallook](../img/webpage.png) [Possible solution](exercise1solution.html)
+![finallook](img/webpage.png) [Possible solution](exercise1solution.html)
 
 
 
 ##Day2 Bootstrap - HTML5 framework
-![](../img/cphbusinesslog.png)
+![](img/cphbusinesslog.png)
 
 
 
