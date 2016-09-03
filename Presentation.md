@@ -50,22 +50,22 @@ The different tags help define the purpose of the content and with the help of C
 - IDs
 - Classes
 - Child elements: div p a (this means: any a-elements that are directly inside a p element
-- Same style attributes to more selectors: p, img, div
-[first and last element](http://www.w3schools.com/cssref/tryit.asp?filename=trycss_sel_firstchild_more3)
-[n-th element](http://www.w3schools.com/cssref/tryit.asp?filename=trycss3_nth-child_odd_even)
-[CSS box model](http://www.w3schools.com/css/css_boxmodel.asp)
-[Float](https://developer.mozilla.org/en-US/docs/Web/CSS/float)
-[Flex box](http://www.w3schools.com/css/css3_flexbox.asp)
-[CSS positioning](http://www.w3schools.com/css/css_positioning.asp)
+- Same style attributes to more selectors: p, img, div  
+- [first and last element](http://www.w3schools.com/cssref/tryit.asp?filename=trycss_sel_firstchild_more3)  
+- [n-th element](http://www.w3schools.com/cssref/tryit.asp?filename=trycss3_nth-child_odd_even)  
+- [CSS box model](http://www.w3schools.com/css/css_boxmodel.asp)  
+- [Float](https://developer.mozilla.org/en-US/docs/Web/CSS/float)  
+- [Flex box](http://www.w3schools.com/css/css3_flexbox.asp)  
+- [CSS positioning](http://www.w3schools.com/css/css_positioning.asp)  
 
 
 
 ###Exercise day1:
 
-*   Create a new webpage/html page.
-*   attach a stylesheet
-*   Test in browser that they are connected
-*   Try using HTML and CSS to get a result as close to this picture as you can
+- Create a new webpage/html page.
+- attach a stylesheet
+- Test in browser that they are connected
+- Try using HTML and CSS to get a result as close to this picture as you can
 
 ![finallook](img/webpage.png)
 
