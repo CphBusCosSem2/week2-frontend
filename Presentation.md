@@ -67,7 +67,7 @@ The different tags help define the purpose of the content and with the help of C
 *   Test in browser that they are connected
 *   Try using HTML and CSS to get a result as close to this picture as you can
 
-![finallook](img/webpage.png) [Possible solution](exercise1solution.html)
+![finallook](img/webpage.png)
 
 
 
@@ -94,11 +94,11 @@ The different tags help define the purpose of the content and with the help of C
 
 
 
-##Day3 Javascript
+## Day3 Javascript
 
 
 
-###Introduction
+### Introduction
 
 - Lets start by doing som js
   - Set up external js document to alert()
@@ -116,7 +116,7 @@ The different tags help define the purpose of the content and with the help of C
   - Objects
   - Array and array methods
 
-###Oddities
+### Oddities
 [Link to oddities](https://www.smashingmagazine.com/2011/05/10-oddities-and-secrets-about-javascript/)
 
 - Null is an object
@@ -125,10 +125,10 @@ The different tags help define the purpose of the content and with the help of C
 - Empty array is false
 	(more or less..)
 
-###Loosely typed
+### Loosely typed
 - Examples
 
-###Values
+### Values
 - numbers, (max 64bit)
 - Integer and floating points (NaN, infinity, -infinity)
 - strings, 
@@ -139,7 +139,7 @@ The different tags help define the purpose of the content and with the help of C
 - Undefined values (null and "undefined")
 
 
-###Truthy vs. Falsy
+### Truthy vs. Falsy
 -Every non-boolean value has a built-in boolean flag
 ```
 -[ ] == false;
@@ -150,15 +150,15 @@ The different tags help define the purpose of the content and with the help of C
 [Truthy / Falsy table](https://dorey.github.io/JavaScript-Equality-Table/)
 
 
-###Operators
+### Operators
 - Unary operators: (typeof and instanceof)
 - Binary operators:
--- String Operators
--- Arithmetic Operators (+, -, *, /, %...)
--- Assignment Operators (=, +=, -=, *=, ….)
--- Logical Operators (==, ===, !==, <, >=, …)
+  - String Operators
+  - Arithmetic Operators (+, -, *, /, %...)
+  - Assignment Operators (=, +=, -=, *=, ….)
+  - Logical Operators (==, ===, !==, <, >=, …)
 - Ternary operators:
-
+`var PhiIsMoreThan4 = Math.PI > 4 ? "Yep" : "Nope";`
 
 ###Functions
 -	Functions vs. Methods (in objects).
@@ -168,18 +168,20 @@ The different tags help define the purpose of the content and with the help of C
 -	IIFE (immediately Invoked Function Expression)
 
 
-###Function arguments
+### Function arguments
 - Extra arguments are ignored
 - Too few arguments and the value will be set to undefined
 - The arguments[] array accessible to all functions
 - Self invoked funtions  
 Here is the problem  
-javascript```
+
+```javascript 
 var someVar = 'hello';
 setTimeout(function() { alert(someVar); }, 1000);
 var someVar = 'goodbye';  
 ```  
 Here is a possible solution  
+
 ```javascript
 var someVar = 'hello';
 setTimeout((function(someVar) {
@@ -190,8 +192,7 @@ var someVar = 'goodbye';
 
 
 
-
-###Scope
+### Scope
 - Scope is the set of variables you have access to.
   - Global scope (Default) == the window object.
   - Function scope
@@ -199,11 +200,12 @@ var someVar = 'goodbye';
     - only in nested functions and objects
     - Not in other blocks like if and loops
  - Faked scope with call() or apply() example:
-javascript ```
+
+```javascript
 var animal = 'dog'; // Global scope
 function getAnimal(adjective) { alert(adjective+' '+this.animal); };
 var myObj = {animal: 'camel'};
-getAnimal.call(myObj, 'lovely'); //alerts 'lovely camel' because we are now in the myObj scope.
+getAnimal.call(myObj, 'lovely'); //alerts 'lovely camel' because we are now in the myObj scope.  
 //or use getAnimal.apply(myObj, ['lovely']); //apply takes array of arguments instead of commaseperated list of args.
 ```
 
@@ -214,7 +216,8 @@ getAnimal.call(myObj, 'lovely'); //alerts 'lovely camel' because we are now in t
 
 
 ###Closures
-- For encapsulation
+- For encapsulation  
+
 ```javascript
     var populateTable = function(){
         tb.innerHTML = "";
@@ -258,19 +261,22 @@ getAnimal.call(myObj, 'lovely'); //alerts 'lovely camel' because we are now in t
 
 
 ###Arrays
-- [ ]
+- `[ ]`
 - Properties:
 - Array methods: [See them here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
+
 
 
 ###Exceptions and errors
 - Exceptions tutorial
 
 
+
 ###filter() and map() examples
 - Filter() and map()
 - Example of dot notation
-- Create our own filter method `myFilter(array, callback)`
+- Create our own filter method 
+- `myFilter(array, callback)`
 
 
 
