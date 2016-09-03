@@ -4,9 +4,9 @@
 
 ### Introduction to HTML
 
-![](../img/domtree.png) Most common tags are:
+![](img/domtree.png) Most common tags are:
 
-![](../img/element.png)
+![](img/element.png)
 
 - div
 - p
