@@ -1,5 +1,7 @@
 #Week plan for week 2: Frontend -HTML, CSS, Bootstrap, JS
+
 ##Day1 HTML and CSS
+
 ### Introduction to HTML
 
 ![](../img/domtree.png) Most common tags are:
@@ -124,7 +126,7 @@ The different tags help define the purpose of the content and with the help of C
 	(more or less..)
 
 ###Loosely typed
--	Examples
+- Examples
 
 ###Values
 - numbers, (max 64bit)
@@ -136,13 +138,17 @@ The different tags help define the purpose of the content and with the help of C
 - Functions, 
 - Undefined values (null and "undefined")
 
+
 ###Truthy vs. Falsy
--	Every non-boolean value has a built-in boolean flag
--	[ ] == false;
--	null == false;
--	"" == false;
--	0 == false;
+-Every non-boolean value has a built-in boolean flag
+```
+-[ ] == false;
+-null == false;
+-"" == false;
+-0 == false;
+```
 [Truthy / Falsy table](https://dorey.github.io/JavaScript-Equality-Table/)
+
 
 ###Operators
 - Unary operators: (typeof and instanceof)
@@ -153,12 +159,14 @@ The different tags help define the purpose of the content and with the help of C
 -- Logical Operators (==, ===, !==, <, >=, …)
 - Ternary operators:
 
+
 ###Functions
 -	Functions vs. Methods (in objects).
 -	Declaration:
 -	Hoisting: 
 -	Only when declared as a function.
 -	IIFE (immediately Invoked Function Expression)
+
 
 ###Function arguments
 - Extra arguments are ignored
@@ -199,9 +207,11 @@ getAnimal.call(myObj, 'lovely'); //alerts 'lovely camel' because we are now in t
 //or use getAnimal.apply(myObj, ['lovely']); //apply takes array of arguments instead of commaseperated list of args.
 ```
 
+
 ###The -this- keyword
 - this refers to the owner of the function we are executing. (The object that the function is a method of)
 - If this is used in a function that is not a method it will refer to the global object (the window object of the browser).
+
 
 ###Closures
 - For encapsulation
@@ -234,8 +244,10 @@ getAnimal.call(myObj, 'lovely'); //alerts 'lovely camel' because we are now in t
 - To be called at a later point
 - Examples:
 
+
 ###Callbacks continued
 - Callbacks are closures (can access the containing functions scope)
+
 
 ###Objects
 - `Var myObject = { };`
@@ -244,13 +256,16 @@ getAnimal.call(myObj, 'lovely'); //alerts 'lovely camel' because we are now in t
 - Can contain properties and methods.
 - Constructor
 
+
 ###Arrays
 - [ ]
 - Properties:
 - Array methods: [See them here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
 
+
 ###Exceptions and errors
 - Exceptions tutorial
+
 
 ###filter() and map() examples
 - Filter() and map()
@@ -267,6 +282,7 @@ getAnimal.call(myObj, 'lovely'); //alerts 'lovely camel' because we are now in t
 - Add data from form to array and display in table
 - show how to add and remove a form field from the page based on button click.
 - see the result [link here!](http://45.55.207.235:8080/SP2/)
+
 
 ##Day5 Studypoint exercise
 - array of student objects
